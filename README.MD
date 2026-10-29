@@ -104,21 +104,6 @@ The firmware outputs debug messages over USB serial. To view the serial output u
 
 On macOS/Linux the port looks like `/dev/tty.*` or `/dev/ttyUSB*`; on Windows `COMx`. Search for a "serial terminal client" for your operating system, for instance `screen` or `minicom`
 
-## How to cite
-
-> Marçon, F. (2026). *marconfr/PicoShakeLog: PicoShakeLog v0.2.0-rc.1* [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23661400
-
-```bibtex
-@software{marcon_picoshakelog_2026,
-  author    = {Marçon, Frédéric},
-  title     = {{marconfr/PicoShakeLog: PicoShakeLog v0.2.0-rc.1}},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23661400},
-  url       = {https://doi.org/10.5281/zenodo.23661400}
-}
-```
-
 ## Trademarks
 
 The names, logos and trademarks mentioned in this project (for example TDK™, Raspberry Pi™, Pimoroni™, ICM-42688-P™, RP2350™, CYW43439™) are the property of their respective owners. They are mentioned here solely to identify compatible hardware, components or services and do not imply any affiliation, endorsement or sponsorship by the trademark owners. Any other use of these trademarks requires permission from the respective owners.
