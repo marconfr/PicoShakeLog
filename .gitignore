@@ -1,0 +1,33 @@
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Generated documentation
+docs/
+
+# Editors / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and captures
+*.log
+*.csv
+*.bin.tmp
+
+# Local notes and exports (not part of the firmware)
+TUTO/
+documentation/
+NOTICE.html
+NOTICE_files/

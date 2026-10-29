@@ -1,0 +1,23 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 100
+PointerAlignment: Left
+AllowShortIfStatementsOnASingleLine: false
+
+# Désactivation de l'alignement pour accélérer le formattage
+AlignConsecutiveMacros: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+
+# Autoriser le bin packing pour regrouper les arguments
+BinPackParameters: true
+BinPackArguments: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowAllArgumentsOnNextLine: true
+
+# Retour à la ligne standard après parenthèse ouvrante
+AlignAfterOpenBracket: Align
+
+# Indentation réduite pour les arguments de continuation
+ContinuationIndentWidth: 4
